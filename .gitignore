@@ -14,4 +14,3 @@ web-build/
 
 yarn.lock
 
-constants/FirebaseCredentials.ts
