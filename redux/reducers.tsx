@@ -24,8 +24,6 @@ function signOut(state:Object) {
 }
 
 function userReducer(state:Object=userInitialState, action:Object) {
-    console.log(action);
-    
     switch (action.type) {
         case SIGN_IN:
             state = signIn(state, action.payload);
