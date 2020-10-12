@@ -18,8 +18,8 @@ import * as firebase from "firebase/app";
 import "firebase/auth";
 
 firebase.initializeApp(firebaseConfig);
-firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE)
-//firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL);
+//firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE)
+firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL);
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
