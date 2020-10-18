@@ -1,4 +1,7 @@
-import { ApplicationProvider, IconRegistry, Layout } from "@ui-kitten/components";
+import {
+  ApplicationProvider,
+  IconRegistry,
+} from "@ui-kitten/components";
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { SafeAreaProvider } from "react-native-safe-area-context";
@@ -8,7 +11,7 @@ import useColorScheme from "./hooks/useColorScheme";
 import Navigation from "./navigation";
 
 import * as eva from "@eva-design/eva";
-import { EvaIconsPack } from '@ui-kitten/eva-icons';
+import { EvaIconsPack } from "@ui-kitten/eva-icons";
 
 import store from "./redux/store";
 import { Provider } from "react-redux";
@@ -18,8 +21,9 @@ import { firebaseConfig } from "./constants/FirebaseCredentials";
 import * as firebase from "firebase/app";
 import "firebase/auth";
 
+
 firebase.initializeApp(firebaseConfig);
-//firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE)
+//firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
 firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL);
 
 export default function App() {
@@ -32,7 +36,6 @@ export default function App() {
     return (
       <Provider store={store}>
         <IconRegistry icons={EvaIconsPack} />
-
         <ApplicationProvider {...eva} theme={eva.light}>
           <SafeAreaProvider>
             <Navigation colorScheme={colorScheme} />

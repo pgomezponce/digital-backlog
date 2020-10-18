@@ -29,7 +29,6 @@ import { connect } from "react-redux";
 import { auth } from "firebase";
 import { sessionActions } from "../redux/actions";
 import { bindActionCreators } from "redux";
-import { Text, View } from "react-native";
 import LogInNavigator from "./LogInNavigator";
 import ContentNavigator from "./ContentNavigator";
 
@@ -50,7 +49,6 @@ export class index extends React.Component {
     if (!this.props.isLogged) {
       return (
         <NavigationContainer
-          linking={LinkingConfiguration}
           theme={this.props.colorScheme === "dark" ? DarkTheme : DefaultTheme}
         >
           <LoginNavigator />
@@ -59,7 +57,6 @@ export class index extends React.Component {
     }
     return (
       <NavigationContainer
-        linking={LinkingConfiguration}
         theme={this.props.colorScheme === "dark" ? DarkTheme : DefaultTheme}
       >
         <RootNavigator />
