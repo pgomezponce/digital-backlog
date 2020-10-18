@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/digital-backlog/static/js/app.88e128e4.chunk.js",
-    "app.js.map": "/digital-backlog/static/js/app.88e128e4.chunk.js.map",
+    "app.js": "/digital-backlog/static/js/app.86ba95fa.chunk.js",
+    "app.js.map": "/digital-backlog/static/js/app.86ba95fa.chunk.js.map",
     "runtime~app.js": "/digital-backlog/static/js/runtime~app.b665f8c4.js",
     "runtime~app.js.map": "/digital-backlog/static/js/runtime~app.b665f8c4.js.map",
-    "static/js/2.74d2f913.chunk.js": "/digital-backlog/static/js/2.74d2f913.chunk.js",
-    "static/js/2.74d2f913.chunk.js.map": "/digital-backlog/static/js/2.74d2f913.chunk.js.map",
+    "static/js/2.4214c214.chunk.js": "/digital-backlog/static/js/2.4214c214.chunk.js",
+    "static/js/2.4214c214.chunk.js.map": "/digital-backlog/static/js/2.4214c214.chunk.js.map",
     "fonts/AntDesign.ttf": "/digital-backlog/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/digital-backlog/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/digital-backlog/./fonts/Feather.ttf",
@@ -25,11 +25,11 @@
     "index.html": "/digital-backlog/index.html",
     "manifest.json": "/digital-backlog/manifest.json",
     "serve.json": "/digital-backlog/serve.json",
-    "static/js/2.74d2f913.chunk.js.LICENSE.txt": "/digital-backlog/static/js/2.74d2f913.chunk.js.LICENSE.txt"
+    "static/js/2.4214c214.chunk.js.LICENSE.txt": "/digital-backlog/static/js/2.4214c214.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime~app.b665f8c4.js",
-    "static/js/2.74d2f913.chunk.js",
-    "static/js/app.88e128e4.chunk.js"
+    "static/js/2.4214c214.chunk.js",
+    "static/js/app.86ba95fa.chunk.js"
   ]
 }
